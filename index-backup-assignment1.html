@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML Assignment</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        margin: 0;
+      }
+      html {
+        box-sizing: border-box;
+      }
+      header {
+        display: flex;
+        align-items: center; /* Vertically align items */
+        background-color: black;
+        justify-content: space-between;
+        padding: 10px 50px 10px 100px;
+        width: 100%;
+        height: 20px;
+      }
+      header a {
+        color: white;
+      }
+      nav a {
+        padding: 5px;
+      }
+      .secondnav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 50px 10px 100px;
+        background-color: blue;
+        width: 100%;
+      }
+      .secondnav a {
+        color: white;
+      }
+
+      main {
+        display: flex;
+      }
+
+      .left-section {
+        flex: 10;
+        padding: 10px 10px 10px 100px;
+      }
+      .right-section {
+        flex: 2;
+        padding: 10px 100px 10px 20px;
+      }
+      main div {
+        padding-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="#"><img src="logo.png" alt="logo" /></a>
+      <nav>
+        <a href="#" title="About Us">About Us</a>
+        <a href="#" title="Career">Career</a>
+        <a href="#" title="Contact Us">Contact Us</a>
+      </nav>
+    </header>
+
+    <nav class="secondnav">
+      <div class="rightnav">
+        <a href="#" title="Manage">Manage</a>
+        <a href="#" title="Search">Search</a>
+      </div>
+      <div class="leftnav">
+        <a href="#" title="Help">Help</a>
+        <a href="#" title="FAQ">FAQ</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="left-section">
+        <section>
+          <h1>Search for patents</h1>
+          <h5>
+            Two-day event to include discussions among USPTO leadership and
+            experts from industry, academia, and the public Jul 14, 2015
+          </h5>
+          <time datetime="2024-10-14">October 14, 2024</time>
+          <hr />
+        </section>
+        <section>
+          <p>
+            Inventors are encouraged to search the USPTO's patent database to
+            see if a patent has already been filed or granted that is similar to
+            your patent. Patents may be searched in the USPTO Patent Full-Text
+            and Image Database (PatFT). The USPTO houses full text for patents
+            issued from 1976 to the present and PDF images for all patents from
+            1790 to the present.
+          </p>
+          <p>
+            All sequences (SEQ ID NOs.) and tables for listed patents or
+            publications are available for viewing, without downloading, by
+            accessing the proper document detail page and then submitting a SEQ
+            ID NO or a mega table ID number.
+          </p>
+        </section>
+        <section>
+          <h3>Global Patent Search Network (GPSN)</h3>
+          <p>
+            Global Patent Search Network (GPSN)Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </p>
+        </section>
+        <section>
+          <h4>Searching full text patents(since 1976)</h4>
+          <p>
+            Customize search on all or selected group of projects (First
+            Paragraph)
+          </p>
+          <div><a href="#" title="Quick Search">Quick Search</a></div>
+          <div><a href="#" title="Advance Search">Advance Search</a></div>
+          <div>
+            <a href="#" title="Patent Number Search">Patent Number Search</a>
+          </div>
+        </section>
+        <section>
+          <h3>Patent Application Information Reterival (PAIR)</h3>
+          <p>
+            The Patent Application Information Retrieval (PAIR) system provides
+            IP customers a safe, simple, and secure way to retrieve and download
+            information regarding patent application status.
+          </p>
+          <a href="#">Visit pair</a>
+          <p>
+            To make it easier for any inventor to pursue patent protection in
+            both the U.S. and Australia, USPTO Deputy Director Michelle K. Lee
+            (right) and IP Australia Director General Patricia Kelly (left)
+            signed Wednesday a Memorandum of Understanding strengthening their
+            already solid partnership
+          </p>
+        </section>
+      </section>
+      <aside class="right-section">
+        <section>
+          <h3>Help center</h3>
+          <section>
+            <div>REOURCES</div>
+            <div>
+              <a href="#" title="Search Existing Trademark"
+                >Search Existing Trademark</a
+              >
+            </div>
+            <div>
+              <a href="#" title="Instructional Videos">Instructional Videos</a>
+            </div>
+          </section>
+          <section>
+            <div>FAQ</div>
+            <div><a href="#" title="Faq1">Faq1</a></div>
+            <div><a href="#" title="Faq2">Faq2</a></div>
+          </section>
+          <section>
+            <h3>Releated Articles</h3>
+            <div><a href="#" title="RelTrade1">RelTrade1</a></div>
+            <div><a href="#" title="RelTrade2">RelTrade2</a></div>
+          </section>
+        </section>
+      </aside>
+    </main>
+  </body>
+</html>
